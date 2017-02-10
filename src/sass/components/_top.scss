@@ -99,6 +99,20 @@
     white-space: nowrap;
   }
 
+  > ul {
+    li {
+      margin-right: 5px;
+    }
+    li::after {
+      content: '·';
+      margin-left: 4px;
+    }
+    li:last-child::after {
+      content: '';
+      margin-left: 0px;
+    }
+  }
+
   a {
     color: $top-menu-link;
     font-weight: $font-weight-bold;
