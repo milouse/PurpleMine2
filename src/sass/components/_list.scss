@@ -38,6 +38,10 @@ table.list {
     }
   }
 
+  th {
+    text-align: left;
+  }
+
   td {
     padding: $table-cell-padding;
     border: 1px solid $table-border-color;
@@ -74,6 +78,7 @@ table.list {
 
     &.assigned_to,
     &.attachments,
+    &.updated_on,
     &.author,
     &.activity,
     &.category,
