@@ -486,7 +486,7 @@ $icon-danger-hover-color:            darken($brand-danger, 10%);
     .issue_statuses {
       @extend %admin-icon;
 
-      &::before { content: $fa-var-pencil-square; }
+      &::before { content: $fa-var-tasks; }
     }
 
     .workflows {
@@ -499,13 +499,13 @@ $icon-danger-hover-color:            darken($brand-danger, 10%);
     .custom_fields {
       @extend %admin-icon;
 
-      &::before { content: $fa-var-edit; }
+      &::before { content: $fa-var-th-list; }
     }
 
     .enumerations {
       @extend %admin-icon;
 
-      &::before { content: $fa-var-list; }
+      &::before { content: $fa-var-tachometer; }
     }
 
     .settings {
